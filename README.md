@@ -1,4 +1,3 @@
-# 
 # Library Management System
 
 A console-based Library Management System built in core Java, developed as a VITyarthi "Build Your Own Project" submission.
@@ -21,7 +20,7 @@ The system allows a librarian to manage a book catalogue, register and manage me
 - Java (JDK 17+)
 - Core Java only — Collections Framework, java.time, java.io (no external dependencies)
 
-## Project Structure\
+## Project Structure
 src/com/library/
 ├── model/ Book, Person (abstract), Member, Transaction
 ├── exceptions/ BookNotAvailableException, InvalidMemberException, DuplicateRecordException
@@ -74,4 +73,4 @@ Expected output: 6 tests, all `PASS`, covering book addition, duplicate rejectio
 - Loan period: 14 days from issue date
 - Fine: ₹5 per day overdue
 - A member cannot borrow more than 3 books at once, or while an outstanding fine is unpaid
-- 
+
